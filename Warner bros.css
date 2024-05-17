@@ -1,0 +1,73 @@
+/* Custom CSS for Warner Bros Website */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #343a40 !important;
+        }
+
+        .navbar-brand {
+            color: #ffffff !important;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+
+        .jumbotron {
+            background-image: url('warner-bros-background.jpg');
+            background-size: cover;
+            color: #000000;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .jumbotron h1 {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+
+        .jumbotron p {
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+
+        .btn-primary {
+            background-color: #dc3545;
+            border-color: #dc3545;
+        }
+
+            
+        .btn-primary:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
+
+        .card {
+            border: none;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .card-title {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .card-text {
+            color: #000000;
+        
