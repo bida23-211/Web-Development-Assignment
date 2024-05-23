@@ -1,13 +1,13 @@
 /* Custom CSS for Warner Bros Website */
         body {
             font-family: Arial, sans-serif;
-            background-color: #ffffff;
+            background-color:#ffffff ;
             margin: 0;
             padding: 0;
         }
 
         .navbar {
-            background-color: #343a40 !important;
+            background-color: #313131 !important;
         }
 
         .navbar-brand {
@@ -16,7 +16,7 @@
         }
 
         .navbar-nav .nav-link {
-            color: #fff !important;
+            color: #ffffff !important;
         }
 
         .jumbotron {
@@ -70,4 +70,22 @@
 
         .card-text {
             color: #000000;
+        }
         
+        .movie img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .movie h2 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        .movie p {
+        color: #666;
+        }
+        		
+
+
+    
